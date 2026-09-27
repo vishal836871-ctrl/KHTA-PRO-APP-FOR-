@@ -9,6 +9,10 @@ jobs:
         with:
           flutter-version: '3.32.5'
           channel: 'stable'
+      - name: Fix Gradle Project
+        run: |
+          rm -rf android
+          flutter create --project-name khata_pro --org com.khatapro.black.
       - run: flutter pub get
       - run: flutter build apk --release
       - uses: actions/upload-artifact@v4
