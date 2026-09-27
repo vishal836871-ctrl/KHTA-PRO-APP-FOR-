@@ -2,10 +2,8 @@ name: khata_pro
 description: Mummy Ka Khata PRO BLACK 2026
 publish_to: 'none'
 version: 2.0.0+1
-
 environment:
   sdk: '>=3.5.0 <4.0.0'
-
 dependencies:
   flutter:
     sdk: flutter
@@ -20,10 +18,8 @@ dependencies:
   fl_chart: ^0.71.0
   share_plus: ^11.0.0
   speech_to_text: ^7.4.0
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
 flutter:
   uses-material-design: true
