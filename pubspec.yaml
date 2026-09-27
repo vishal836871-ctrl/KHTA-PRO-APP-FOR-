@@ -1,0 +1,35 @@
+name: khata_pro
+description: Mummy Ka Khata PRO 2026 - Advanced House Budget App
+publish_to: 'none'
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+  flutter: '>=3.24.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.9
+  # PRO FEATURES
+  speech_to_text: ^7.4.0
+  google_fonts: ^8.1.0
+  provider: ^6.1.5+1
+  fl_chart: ^1.1.1
+  share_plus: ^11.1.0
+  intl: ^0.20.2
+  shared_preferences: ^2.5.3
+  pdf: ^3.11.3
+  printing: ^5.14.0
+  path_provider: ^2.1.5
+  animations: ^2.0.11
+  flutter_staggered_animations: ^1.1
+  lottie: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
